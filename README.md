@@ -33,7 +33,8 @@
 
 ### Pour faire vos tests
 - Un fichier postman_collection.json vous est accessible à la racine du projet, il vous suffit de l'importer dans votre Postman en cliquant sur import en haut à gauche ce qui vous permettra de récupérer toutes les routes testables 
--Pour automatiser le token et ne pas avoir à le mettre à la main dans Authorization à chaque fois, cliquez sur environnement à droite de votre postman, créer un environnement et ajouter lui une variable token vide, puis de retour dans les collections, en haut à droite selectionner votre environnement pour que l'automatisation soit active. TADA la magie de l'automatisation ptn !
+
+- Pour automatiser le token et ne pas avoir à le mettre à la main dans Authorization à chaque fois, cliquez sur environnement à droite de votre postman, créer un environnement et ajouter lui une variable token vide, puis de retour dans les collections, en haut à droite selectionner votre environnement pour que l'automatisation soit active. TADA la magie de l'automatisation ptn !
 
 ### Utilisateurs
 - `POST /auth/register` : Créer un compte utilisateur
